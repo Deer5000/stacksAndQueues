@@ -55,7 +55,7 @@ class LinkedQueue(object):
             raise ValueError("Empty list, cant dequeue.")
 
         item = self.list.head.data
-        self.list.head = self.lsit.head.next
+        self.list.head = self.list.head.next
         self.list.size -= 1
         return item
 
